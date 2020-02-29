@@ -2,6 +2,8 @@
 
 FRADS: Finding RBP Associations with Disease SNPs. A pipeline for processing ENCODE eCLIP data to find association between RBP binding and disease related SNPS.
 
+## Main contributors: Yen-Tso Cheng, Haodong Liu, Ruhi Naik, Sabrina Tsai.
+
 ## INTRODUCTION:
 A 03-713 Bioinformatics Practicum project. It is focused on finding disease-associated SNP in RBP binding sites using eCLIP data and integrating various bioinformatics tools including Cutadapt, PrinSeq, STAR, PureCLIP, bedtools.
 
@@ -16,7 +18,7 @@ PureCLIP(v1.3.1)
 bedtools(v2.92.1)
 
 
-### Installing
+## Installing
 
 To install, clone files from github.
 $ git clone 
@@ -57,12 +59,6 @@ $ python FRADS.py -r1 ENCFF651RTO -r2 ENCFF947CCD -ass 38
 
 ### OUTPUT:
 The output will be a .bed file that contains all the crosslink site SNPs in an ENCODE dataset that are doubly associated with diseases and RBP binding. The output will list the SNP along with the disease it is associated with.
-
-## Authors
-Communications Lead:  Sabrina Tsai
-Lead Technical Writer: Ruhi Naik
-Q&A Lead/Technical Lead: Yen-Tso Cheng
-Program Manager: Haodong Liu
 
 
 ## Acknowledgments
